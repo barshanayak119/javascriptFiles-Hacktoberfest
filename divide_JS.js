@@ -1,6 +1,6 @@
-let x = 11
-let y = 5
+let x1 = 12
+let x2= 50
 
-let z = x/y
+let l = x1/x2
 
 console.log(z)
