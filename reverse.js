@@ -1,11 +1,11 @@
 function reverseString(str) {
 
     // empty string
-    let newString = "";
+    let str = "";
     for (let i = str.length - 1; i >= 0; i--) {
-        newString += str[i];
+        str += str[i];
     }
-    return newString;
+    return str;
 }
 
 // take input from the user
