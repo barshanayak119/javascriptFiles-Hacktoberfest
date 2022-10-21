@@ -1,4 +1,4 @@
-let x = 1
-let y = 2
-let z = x+y
+let x = 10
+let y = 20
+let z = x+(y+y)
 console.log(z)
