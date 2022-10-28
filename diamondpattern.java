@@ -1,41 +1,25 @@
-package Edureka;
-import java.util.Scanner;
-public class DiamondPattern
-{
-public static void main(String args[])
-{
-int n, i, j, space = 1;
-System.out.print("Enter the number of rows: ");
-Scanner s = new Scanner(System.in);
-n = s.nextInt();
-space = n - 1;
-for (j = 1; j<= n; j++)
-{
-for (i = 1; i<= space; i++)
-{
-System.out.print(" ");
+let n = 5;
+// Upside pyramid
+for (let i = 1; i <= n; i++) {
+  // printing spaces
+  for (let j = 1; j <= n - i; j++) {
+    process.stdout.write(' ')
+  }
+  // printing star
+  for (let k = 0; k < 2 * i - 1; k++) {
+    process.stdout.write('*')
+  }
+  console.log();
 }
-space--;
-for (i = 1; i <= 2 * j - 1; i++)
-{
-System.out.print("*");
-}
-System.out.println("");
-}
-space = 1;
-for (j = 1; j<= n - 1; j++)
-{
-for (i = 1; i<= space; i++)
-{
-System.out.print(" ");
-}
-space++;
-for (i = 1; i<= 2 * (n - j) - 1; i++)
-{
-System.out.print("*");
-}
-System.out.println("");
-System.out.println("Done!");
-}
-}
+
+for (let i = 1; i <= n - 1; i++) {
+  // printing spaces
+  for (let j = 0; j < i; j++) {
+     process.stdout.write(' ');
+  }
+  // printing star
+  for (let k = (n - i) * 2 - 1; k > 0; k--) {
+    process.stdout.write('*');
+  }
+  console.log();
 }
