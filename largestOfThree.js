@@ -1,18 +1,18 @@
 function max_of_three(x, y, z) 
  {
-  max_val = 0;
+  max= 0;
   if (x > y)
   {
-    max_val = x;
+    max = x;
   } else
   {
-    max_val = y;
+    max = y;
   }
-  if (z > max_val) 
+  if (z > max) 
   {
-    max_val = z;
+    max = z;
   }
-  return max_val;
+  return max;
 }
 
 console.log(max_of_three(1,0,1));
