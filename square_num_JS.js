@@ -1,5 +1,5 @@
-let x = 7
+let x1 = 7
 
-let z = x*x
+let sqr = x1*x1
 
-console.log(z)
+console.log(sqr)
