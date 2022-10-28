@@ -1,5 +1,5 @@
-let x = 10
-let y = 20
-let z = x+(y+y)
+let x1 = 10
+let y1 = 20
+let z = x1+(y1+x1)
 console.log(z)
 console.log('Done')
